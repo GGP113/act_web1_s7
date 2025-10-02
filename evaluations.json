@@ -5,86 +5,84 @@
     "activities": [
       {
         "activityDescription": "Gestión de Inventario Básico - Crea un array de objetos que represente un inventario de productos. Cada producto debe tener: id, nombre, precio, categoria, stock. Declara al menos 5 productos y muestra todos los productos, total de productos en inventario y valor total del inventario.",
-        "solutionFile": "ejercicios/ejercicio_01.js",
-        "score": 0,
-        "fileFound": false,
-        "feedback": ""
+        "solutionFile": "src/ejercicio_01.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "Excelente solución. El código es claro, conciso y cumple con todos los requisitos. El uso de `reduce` es adecuado y eficiente."
       },
       {
         "activityDescription": "Filtrado de Productos por Categoría - Usando el inventario del ejercicio anterior, utiliza el método filter() para mostrar solo productos de la categoría 'Electrónicos', productos con stock menor a 10 y productos con precio mayor a $500.",
-        "solutionFile": "ejercicios/ejercicio_02.js",
-        "score": 0,
-        "fileFound": false,
-        "feedback": ""
+        "solutionFile": "src/ejercicio_02.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "La solución es correcta y eficiente. El código es claro, conciso y cumple con los requisitos de la actividad utilizando el método `filter()` adecuadamente."
       },
       {
         "activityDescription": "Transformación de Datos con map() - Crea un array de estudiantes con nombre, edad, notas (array de números). Usa map() para crear un nuevo array con solo los nombres, crear un array con el promedio de cada estudiante y agregar una propiedad estado ('Aprobado' si promedio >= 70, 'Reprobado' si < 70).",
-        "solutionFile": "ejercicios/ejercicio_03.js",
-        "score": 0,
-        "fileFound": false,
-        "feedback": ""
+        "solutionFile": "src/ejercicio_03.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "Excelente solución. El código es claro, conciso y resuelve todos los requerimientos usando `map` y `reduce` correctamente. Se aplican buenas prácticas en la manipulación de arrays y la lógica condicional."
       },
       {
         "activityDescription": "Análisis de Ventas con reduce() - Dado un array de ventas con producto, cantidad, precio, fecha. Usa reduce() para calcular total de ingresos, producto más vendido (por cantidad) y promedio de venta por transacción.",
-        "solutionFile": "ejercicios/ejercicio_04.js",
-        "score": 0,
-        "fileFound": false,
-        "feedback": ""
+        "solutionFile": "src/ejercicio_04.js",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La solución es correcta y utiliza `reduce` de manera efectiva. Podría mejorarse la legibilidad separando la lógica del producto más vendido en una función aparte y usando nombres de variables más descriptivos."
       },
       {
         "activityDescription": "Búsqueda y Verificación - Crea un array de usuarios con id, nombre, email, activo. Implementa búsquedas usando find() para buscar usuario por email, findIndex() para obtener posición de usuario por id, some() para verificar si hay usuarios inactivos y every() para verificar si todos tienen email válido (contiene @).",
-        "solutionFile": "ejercicios/ejercicio_05.js",
-        "score": 0,
-        "fileFound": false,
-        "feedback": ""
+        "solutionFile": "src/ejercicio_05.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "La solución es correcta y completa. El código es legible y funcional, demostrando el uso adecuado de find, findIndex, some y every."
       },
       {
         "activityDescription": "Manipulación de Arrays - Crea un array inicial [1, 2, 3, 4, 5] y demuestra push() y pop() (agregar y quitar del final), shift() y unshift() (agregar y quitar del inicio), splice() (insertar elementos en posición específica) y slice() (extraer porción sin modificar original).",
-        "solutionFile": "ejercicios/ejercicio_06.js",
-        "score": 0,
-        "fileFound": false,
-        "feedback": ""
+        "solutionFile": "src/ejercicio_06.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "La solución es correcta y completa. El código es legible y demuestra el uso adecuado de todos los métodos de arrays solicitados."
       },
       {
         "activityDescription": "Ordenamiento y Reversión - Crea arrays de números desordenados (ordena ascendente y descendente), nombres de personas (ordena alfabéticamente), objetos con propiedad edad (ordena por edad) y usa reverse() para invertir el orden.",
-        "solutionFile": "ejercicios/ejercicio_07.js",
-        "score": 0,
-        "fileFound": false,
-        "feedback": ""
+        "solutionFile": "src/ejercicio_07.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "La solución es correcta y concisa. El uso del spread operator para crear copias de los arrays es una buena práctica para evitar la mutación del array original."
       },
       {
         "activityDescription": "Desestructuración de Arrays - Dado el array ['JavaScript', 'Python', 'Java', 'C++', 'Go']: extrae los primeros 3 lenguajes, extrae el primero y el último, usa rest operator para separar el primero del resto e intercambia dos variables usando desestructuración.",
-        "solutionFile": "ejercicios/ejercicio_08.js",
-        "score": 0,
-        "fileFound": false,
-        "feedback": ""
+        "solutionFile": "src/ejercicio_08.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "Excelente solución. El código es limpio, conciso y cumple con todos los requisitos de la actividad de manera eficiente. Demuestra buen manejo de la desestructuración de arrays."
       },
       {
         "activityDescription": "Desestructuración de Objetos - Crea un objeto persona con propiedades anidadas (dirección, contacto). Demuestra desestructuración básica, renombrado de variables, valores por defecto, desestructuración anidada y rest operator en objetos.",
-        "solutionFile": "ejercicios/ejercicio_09.js",
-        "score": 0,
-        "fileFound": false,
-        "feedback": ""
+        "solutionFile": "src/ejercicio_09.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "Excelente solución. El código resuelve correctamente todos los aspectos de la desestructuración de objetos solicitados y es fácil de leer. Se cumplen todas las buenas prácticas."
       },
       {
         "activityDescription": "Métodos de Objeto - Crea un objeto y demuestra Object.keys() (obtener claves), Object.values() (obtener valores), Object.entries() (obtener pares clave-valor) e iterar sobre el objeto con forEach().",
-        "solutionFile": "ejercicios/ejercicio_10.js",
-        "score": 0,
-        "fileFound": false,
-        "feedback": ""
+        "solutionFile": "src/ejercicio_10.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "Excelente solución. El código cumple con todos los requisitos de la actividad, demostrando un entendimiento claro de los métodos de objeto y su iteración. Bien hecho."
       }
     ],
-    "overallScore": 0,
+    "overallScore": 4.9,
     "totalActivities": 10,
-    "completedActivities": 0,
-    "summary": "Necesita mejorar. Completó 0/10 actividades (0%) con una calificación promedio de 0.0/5. Se recomienda revisar los conceptos fundamentales.",
+    "completedActivities": 10,
+    "summary": "Excelente trabajo. Completó 10/10 actividades (100%) con una calificación promedio de 4.9/5. Demuestra buen dominio de los conceptos.",
     "recommendations": [
-      "Completar los archivos faltantes: ejercicios/ejercicio_01.js, ejercicios/ejercicio_02.js, ejercicios/ejercicio_03.js, ejercicios/ejercicio_04.js, ejercicios/ejercicio_05.js, ejercicios/ejercicio_06.js, ejercicios/ejercicio_07.js, ejercicios/ejercicio_08.js, ejercicios/ejercicio_09.js, ejercicios/ejercicio_10.js",
-      "Enfocarse en mejorar la documentación y comentarios del código",
-      "Aplicar mejores prácticas de programación"
+      "Continuar con el excelente trabajo y mantener la calidad del código"
     ],
-    "evaluatedAt": "2025-09-11T19:07:11.817Z",
-    "evaluatedBy": "Sistema de Evaluación Masiva"
+    "evaluatedAt": "2025-09-12T01:51:49.199Z",
+    "evaluatedBy": "Sistema de Evaluación"
   },
   "GGP113/act_web1_s7": {
     "repositoryUrl": "GGP113/act_web1_s7",
@@ -173,88 +171,88 @@
   },
   "albanyluciani/act_web1_s7": {
     "repositoryUrl": "albanyluciani/act_web1_s7",
-    "studentName": "Estudiante desconocido",
+    "studentName": "Albany Anmabel Luciani Mujica",
     "activities": [
       {
         "activityDescription": "Gestión de Inventario Básico - Crea un array de objetos que represente un inventario de productos. Cada producto debe tener: id, nombre, precio, categoria, stock. Declara al menos 5 productos y muestra todos los productos, total de productos en inventario y valor total del inventario.",
-        "solutionFile": "ejercicios/ejercicio_01.js",
+        "solutionFile": "src/ejercicio_01.js",
         "score": 4,
         "fileFound": true,
-        "feedback": "La solución es correcta y funcional. Se puede mejorar la legibilidad al iterar sobre la lista para mostrar todos los detalles de cada producto, no solo el nombre. Además, el nombre del parámetro 'productos' dentro del forEach y reduce podría ser más descriptivo (ej: 'producto')."
+        "feedback": "La actividad se resuelve correctamente. Podrías mejorar la presentación de la lista de productos (usar `console.table` o formatear la salida) y usar nombres de variables más descriptivos dentro del `forEach` y `reduce`."
       },
       {
         "activityDescription": "Filtrado de Productos por Categoría - Usando el inventario del ejercicio anterior, utiliza el método filter() para mostrar solo productos de la categoría 'Electrónicos', productos con stock menor a 10 y productos con precio mayor a $500.",
-        "solutionFile": "ejercicios/ejercicio_02.js",
+        "solutionFile": "src/ejercicio_02.js",
         "score": 5,
         "fileFound": true,
-        "feedback": "¡Excelente trabajo! La solución es correcta, clara y bien estructurada. El código cumple con todos los requisitos de la actividad."
+        "feedback": "La solución es correcta y cumple con todos los requisitos. El código es legible y fácil de entender, utilizando el método filter() adecuadamente para cada criterio."
       },
       {
         "activityDescription": "Transformación de Datos con map() - Crea un array de estudiantes con nombre, edad, notas (array de números). Usa map() para crear un nuevo array con solo los nombres, crear un array con el promedio de cada estudiante y agregar una propiedad estado ('Aprobado' si promedio >= 70, 'Reprobado' si < 70).",
-        "solutionFile": "ejercicios/ejercicio_03.js",
+        "solutionFile": "src/ejercicio_03.js",
         "score": 5,
         "fileFound": true,
-        "feedback": "La solución es correcta y completa. El código es legible y cumple con los requisitos de la actividad, usando `map()` y `reduce()` de forma efectiva."
+        "feedback": "La solución es correcta y cumple con todos los requisitos. El código es limpio, legible y utiliza buenas prácticas como `reduce` para calcular el promedio."
       },
       {
         "activityDescription": "Análisis de Ventas con reduce() - Dado un array de ventas con producto, cantidad, precio, fecha. Usa reduce() para calcular total de ingresos, producto más vendido (por cantidad) y promedio de venta por transacción.",
-        "solutionFile": "ejercicios/ejercicio_04.js",
+        "solutionFile": "src/ejercicio_04.js",
         "score": 3,
         "fileFound": true,
-        "feedback": "El cálculo del total de ingresos y el promedio es correcto. Sin embargo, la lógica para encontrar el producto más vendido es incorrecta; `reduce` debe comparar la cantidad vendida de cada producto, no los objetos completos. Además, el código carece de manejo de edge cases (ej. array vacío)."
+        "feedback": "Calcula correctamente el total de ingresos y el promedio. Sin embargo, la lógica para encontrar el producto más vendido es incorrecta, ya que solo devuelve la cantidad máxima, no el producto asociado. Se recomienda revisar la implementación para el producto más vendido."
       },
       {
         "activityDescription": "Búsqueda y Verificación - Crea un array de usuarios con id, nombre, email, activo. Implementa búsquedas usando find() para buscar usuario por email, findIndex() para obtener posición de usuario por id, some() para verificar si hay usuarios inactivos y every() para verificar si todos tienen email válido (contiene @).",
-        "solutionFile": "ejercicios/ejercicio_05.js",
+        "solutionFile": "src/ejercicio_05.js",
         "score": 5,
         "fileFound": true,
-        "feedback": "La solución es correcta y cumple con todos los requisitos. El código es claro, conciso y fácil de entender. Buen trabajo."
+        "feedback": "La solución es correcta y completa, implementando todas las funcionalidades requeridas de forma eficiente. El código es legible y sigue buenas prácticas."
       },
       {
         "activityDescription": "Manipulación de Arrays - Crea un array inicial [1, 2, 3, 4, 5] y demuestra push() y pop() (agregar y quitar del final), shift() y unshift() (agregar y quitar del inicio), splice() (insertar elementos en posición específica) y slice() (extraer porción sin modificar original).",
-        "solutionFile": "ejercicios/ejercicio_06.js",
+        "solutionFile": "src/ejercicio_06.js",
         "score": 5,
         "fileFound": true,
-        "feedback": "La solución cumple con todos los requisitos del ejercicio, demostrando el uso correcto de los métodos de array. El código es claro y conciso, facilitando su comprensión."
+        "feedback": "La solución es correcta y demuestra el uso de todos los métodos del array solicitados. El código es limpio y fácil de entender."
       },
       {
         "activityDescription": "Ordenamiento y Reversión - Crea arrays de números desordenados (ordena ascendente y descendente), nombres de personas (ordena alfabéticamente), objetos con propiedad edad (ordena por edad) y usa reverse() para invertir el orden.",
-        "solutionFile": "ejercicios/ejercicio_07.js",
-        "score": 5,
+        "solutionFile": "src/ejercicio_07.js",
+        "score": 4,
         "fileFound": true,
-        "feedback": "Excelente solución. Cumple con todos los requisitos de la actividad y el código es limpio y fácil de entender. Buen uso de `sort` y `reverse`."
+        "feedback": "La solución es correcta y funcional. Se podría mejorar la legibilidad separando la lógica en funciones y agregando comentarios más descriptivos."
       },
       {
         "activityDescription": "Desestructuración de Arrays - Dado el array ['JavaScript', 'Python', 'Java', 'C++', 'Go']: extrae los primeros 3 lenguajes, extrae el primero y el último, usa rest operator para separar el primero del resto e intercambia dos variables usando desestructuración.",
-        "solutionFile": "ejercicios/ejercicio_08.js",
+        "solutionFile": "src/ejercicio_08.js",
         "score": 4,
         "fileFound": true,
-        "feedback": "La solución es correcta en general y demuestra el uso de la desestructuración. Sin embargo, hay una errata en el array (Jasva en lugar de Java) y una inconsistencia en la extracción del primer y último elemento. Se puede mejorar la claridad en los nombres de las variables."
+        "feedback": "La solución es correcta y funcional, pero hay un error de tipeo (\"Jasva\" en lugar de \"Java\"). Además, la extracción del primer y último elemento podría ser más clara usando `lenguajes[0]` y `lenguajes[lenguajes.length - 1]` para evitar confusiones con la asignación por posición. "
       },
       {
         "activityDescription": "Desestructuración de Objetos - Crea un objeto persona con propiedades anidadas (dirección, contacto). Demuestra desestructuración básica, renombrado de variables, valores por defecto, desestructuración anidada y rest operator en objetos.",
-        "solutionFile": "ejercicios/ejercicio_09.js",
-        "score": 5,
+        "solutionFile": "src/ejercicio_09.js",
+        "score": 4,
         "fileFound": true,
-        "feedback": "La solución es correcta y completa, demostrando todos los aspectos de la desestructuración de objetos solicitados. El código es legible y bien estructurado."
+        "feedback": "La actividad resuelve correctamente la desestructuración, pero se podría mejorar la organización del código y eliminar los `console.log` innecesarios (como `persona.nombre` al inicio) para una mejor presentación. Buen uso del rest operator."
       },
       {
         "activityDescription": "Métodos de Objeto - Crea un objeto y demuestra Object.keys() (obtener claves), Object.values() (obtener valores), Object.entries() (obtener pares clave-valor) e iterar sobre el objeto con forEach().",
-        "solutionFile": "ejercicios/ejercicio_10.js",
+        "solutionFile": "src/ejercicio_10.js",
         "score": 5,
         "fileFound": true,
-        "feedback": "La solución es correcta y completa. Demuestra el uso adecuado de Object.keys, Object.values, Object.entries y la iteración con forEach. El código es limpio y fácil de entender."
+        "feedback": "La solución es correcta y demuestra el uso adecuado de Object.keys, Object.values, Object.entries y forEach. El código es limpio y fácil de entender."
       }
     ],
-    "overallScore": 4.6,
+    "overallScore": 4.4,
     "totalActivities": 10,
     "completedActivities": 10,
-    "summary": "Excelente trabajo. Completó 10/10 actividades (100%) con una calificación promedio de 4.6/5. Demuestra buen dominio de los conceptos.",
+    "summary": "Excelente trabajo. Completó 10/10 actividades (100%) con una calificación promedio de 4.4/5. Demuestra buen dominio de los conceptos.",
     "recommendations": [
       "Continuar con el excelente trabajo y mantener la calidad del código"
     ],
-    "evaluatedAt": "2025-09-11T19:18:02.320Z",
-    "evaluatedBy": "Sistema de Evaluación Masiva"
+    "evaluatedAt": "2025-09-12T01:35:38.336Z",
+    "evaluatedBy": "Sistema de Evaluación"
   },
   "Jcorrea24/act_web1_s7": {
     "repositoryUrl": "Jcorrea24/act_web1_s7",
@@ -489,9 +487,9 @@
       {
         "activityDescription": "Desestructuración de Objetos - Crea un objeto persona con propiedades anidadas (dirección, contacto). Demuestra desestructuración básica, renombrado de variables, valores por defecto, desestructuración anidada y rest operator en objetos.",
         "solutionFile": "src/ejercicio_09.js",
-        "score": 0,
+        "score": 4,
         "fileFound": true,
-        "feedback": "Error al procesar la evaluación"
+        "feedback": "La actividad cumple con la desestructuración de objetos, incluyendo anidada y rest operator. Sin embargo, hay un `console.log` con valores hardcodeados (`console.log('manu', 30);`) que no corresponde y la variable `trabajo` no existe en el objeto `persona`, lo cual demuestra el valor por defecto, pero podría ser más claro añadiéndola al objeto persona con valor `null` o similar."
       },
       {
         "activityDescription": "Métodos de Objeto - Crea un objeto y demuestra Object.keys() (obtener claves), Object.values() (obtener valores), Object.entries() (obtener pares clave-valor) e iterar sobre el objeto con forEach().",
@@ -501,15 +499,15 @@
         "feedback": "Excelente solución. Demuestra el uso correcto de `Object.keys()`, `Object.values()`, `Object.entries()` e iteración con `forEach()`. El código es limpio y fácil de entender."
       }
     ],
-    "overallScore": 3.9,
+    "overallScore": 4.3,
     "totalActivities": 10,
-    "completedActivities": 9,
-    "summary": "Buen trabajo general. Completó 9/10 actividades (90%) con una calificación promedio de 3.9/5. Hay oportunidades de mejora en algunos aspectos.",
+    "completedActivities": 10,
+    "summary": "Excelente trabajo. Completó 10/10 actividades (100%) con una calificación promedio de 4.3/5. Demuestra buen dominio de los conceptos.",
     "recommendations": [
-      "Revisar y mejorar las actividades con calificación baja"
+      "Continuar con el excelente trabajo y mantener la calidad del código"
     ],
-    "evaluatedAt": "2025-09-12T00:55:38.127Z",
-    "evaluatedBy": "Sistema de Evaluación"
+    "evaluatedAt": "2025-09-12T01:28:22.683Z",
+    "evaluatedBy": "Sistema"
   },
   "MarioMunera1993/act_web1_s7": {
     "repositoryUrl": "MarioMunera1993/act_web1_s7",
